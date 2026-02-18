@@ -18,6 +18,11 @@
       height: auto;
     }
   }
+
+  <button id="themeToggle" class="btn btn-sm btn-secondary">
+  Toggle Dark Mode
+</button>
+
   .topbar-divider {
     width: 0;
     border-right: 1px solid $border-color;
