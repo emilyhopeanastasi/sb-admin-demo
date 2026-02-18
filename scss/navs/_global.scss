@@ -2,6 +2,7 @@
 
 .sidebar,
 .topbar {
+  
   .nav-item {
     // Customize Dropdown Arrows for Navbar
     &.dropdown {
@@ -23,6 +24,11 @@
         }
       }
     }
+<button id="themeToggle" class="btn btn-sm btn-secondary">
+  Toggle Dark Mode
+</button>
+
+    
     // Counter for nav links and nav link image sizing
     .nav-link {
       position: relative;
